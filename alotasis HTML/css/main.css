@@ -2232,6 +2232,15 @@ t-face {
     url('../fonts/woff/iranyekanwebregular.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
     url('../fonts/ttf/iranyekanwebregular.ttf') format('truetype');
 }
+@font-face {
+    font-family: BYekan;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/BYekan.eot');
+    src: url('../fonts/BYekan.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/BYekan.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/BYekan.ttf') format('truetype');
+}
 
 h2,
 h3,
@@ -2256,4 +2265,7 @@ h1 {
 .tasis-ltr{
   direction: ltr;
   text-align: right!important;
+}
+.tasis-byekan{
+    font-family: byekan!important;
 }
