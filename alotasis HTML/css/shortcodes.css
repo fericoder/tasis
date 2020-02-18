@@ -1438,7 +1438,7 @@ body{ counter-reset: section; }
     display: block;
     content: '';
     position: absolute;
-    right: -95px;
+    right: 195px;
     top: 45%;
     height: 22px;
     width: 72px;

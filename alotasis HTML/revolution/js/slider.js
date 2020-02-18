@@ -44,7 +44,7 @@ jQuery(function() {
       },
     });
   }
-  
+
 });
 
 
@@ -92,5 +92,5 @@ jQuery(function() {
             },
         });
     }
-    
+
 });

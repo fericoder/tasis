@@ -788,6 +788,7 @@ div.product ul.tabs li a{
 .ttm-btn-bgcolor-skincolor, a.ttm-btn-bgcolor-skincolor,
 .ttm-btn-bgcolor-skincolor:hover, a.ttm-btn-bgcolor-skincolor:hover{
     color: rgba(255,255,255,1);
+
 }
 
 .ttm-bgcolor-skincolor .testimonials .testimonial-content label,
@@ -813,6 +814,7 @@ div.product ul.tabs li a{
 .banner-img-box .featured-content ul li a,
 .banner-img-box .featured-content .featured-desc p {
     color: rgba(255,255,255,.80);
+    padding-left: 20px;
 }
 
 .heilight-white-text,
