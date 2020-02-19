@@ -1635,12 +1635,12 @@ div.product ul.tabs li a{
     font-size: 14px;
     padding-bottom: 0;
 }
-.footer-nav-menu li:last-child { padding-right: 0; }
+.footer-nav-menu li:last-child { padding-right: 13px; }
 .footer-nav-menu li:first-child { padding-left: 0; }
 ul.footer-nav-menu li:not(:last-child):after {
     position: absolute;
     content: "|";
-    padding-left: 7px;
+    padding-right: 7px;
 }
 .widget ul#menu-footer-services li a {
     padding-left: 16px;
