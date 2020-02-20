@@ -14,9 +14,12 @@
 Route::get('/', function () {
     return view('index');
 });
-Route::get('services', function () {
-    return view('services');
+Route::get('payment', function () {
+    return view('payment');
 });
 Route::get('contact', function () {
     return view('contact');
+});
+Route::get('about', function () {
+    return view('about');
 });

@@ -1,169 +1,7 @@
-<!doctype html>
-<html lang="en" dir="rtl">
+@extends('master')
 
+@section('content')
 
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="img/logo-faradis.png" type="image/x-icon">
-    <title>فرادیس البرز</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="vendors/bootstrap-selector/css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <!--icon font css-->
-    <link rel="stylesheet" href="vendors/themify-icon/themify-icons.css">
-    <link rel="stylesheet" href="vendors/elagent/style.css">
-    <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
-    <link rel="stylesheet" href="vendors/animation/animate.css">
-    <link rel="stylesheet" href="vendors/owl-carousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendors/magnify-pop/magnific-popup.css">
-    <link rel="stylesheet" href="vendors/nice-select/nice-select.css">
-    <link rel="stylesheet" href="vendors/scroll/jquery.mCustomScrollbar.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/rtl.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-</head>
-
-<body>
-    <div id="preloader">
-        <div id="ctn-preloader" class="ctn-preloader">
-            <div class="animation-preloader">
-                <div class="spinner"></div>
-                <div class="txt-loading">
-                    <span data-text-preloader="F" class="letters-loading">
-                        F
-                    </span>
-                    <span data-text-preloader="A" class="letters-loading">
-                        A
-                    </span>
-                    <span data-text-preloader="R" class="letters-loading">
-                        R
-                    </span>
-                    <span data-text-preloader="A" class="letters-loading">
-                        A
-                    </span>
-                    <span data-text-preloader="D" class="letters-loading">
-                        D
-                    </span>
-                    <span data-text-preloader="I" class="letters-loading">
-                        I
-                    </span>
-                    <span data-text-preloader="S" class="letters-loading">
-                        S
-                    </span>
-
-                </div>
-                <p class="text-center">Loading</p>
-            </div>
-            <div class="loader">
-                <div class="row">
-                    <div class="col-3 loader-section section-left">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-left">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-right">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-right">
-                        <div class="bg"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="body_wrapper">
-        <header class="header_area">
-            <nav class="navbar navbar-expand-lg menu_one menu_four">
-                <div class="container custom_container p0">
-                    <a class="navbar-brand" href="#"><img src="img/name-faradis.png" srcset="img/logo-faradis.png 2x" alt="logo"></a>
-                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="menu_toggle">
-                            <span class="hamburger">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                            <span class="hamburger-cross">
-                                <span></span>
-                                <span></span>
-                            </span>
-                        </span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav menu pl_120">
-                            <li class="nav-item dropdown submenu mega_menu mega_menu_two active">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                صفحه اصلی
-                                </a>
-
-                            </li>
-                            <li class="dropdown submenu nav-item"><a title="Pages" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">درباره محصول</a>
-
-
-                            </li>
-
-
-                                <li class="dropdown submenu nav-item"><a title="Pages" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">خدمات</a>
-                                    <ul role="menu" class=" dropdown-menu">
-
-                                        <li class="nav-item"><a title="About" class="nav-link" href="about.html">پرداخت یاری</a></li>
-                                        <li class="nav-item"><a title="Process" class="nav-link" href="process.html"></a></li>
-                                        <li class="nav-item"><a title="Pricing" class="nav-link" href="price.html">Pricing</a></li>
-                                        <li class="dropdown submenu nav-item"><a title="Case Study" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Case Study<span class="arrow_carrot-right"></span> </a>
-
-                                        </li>
-                                        <li class="nav-item"><a title="Team" class="nav-link" href="team.html">Team</a></li>
-                                        <li class="dropdown submenu nav-item"><a title="Sign Up" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Sign Up <span class="arrow_carrot-right"></span> </a>
-
-                                        </li>
-                                        <li class="dropdown submenu nav-item"><a title="Login" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Login<span class="arrow_carrot-right"></span> </a>
-
-                                        </li>
-                                        <li class="nav-item"><a title="FAQ" class="nav-link" href="faq.html">FAQ</a></li>
-                                        <li class="dropdown submenu nav-item active"><a title="Contact" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Contact <span class="arrow_carrot-right"></span> </a>
-
-                                        </li>
-                                        <li class="nav-item"><a title="Thank You" class="nav-link" href="thanks.html">Thank You</a></li>
-                                        <li class="nav-item"><a title="Coming Soon" class="nav-link" href="coming-soon.html">Coming Soon</a></li>
-                                        <li class="dropdown submenu nav-item"><a title="404" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">404<span class="arrow_carrot-right"></span> </a>
-
-                                        </li>
-                                    </ul>
-                                </li>
-
-                            </li>
-                            <li class="nav-item dropdown submenu">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  مستندات فنی
-                                </a>
-
-                            </li>
-                            <li class="nav-item dropdown submenu">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  سوالات متداول
-                                </a>
-
-                            </li>
-                            <li class="nav-item dropdown submenu mega_menu">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                تماس باما
-                                </a>
-
-                            </li>
-                        </ul>
-                    </div>
-                    <a class="btn_get btn_hover hidden-sm hidden-xs" href="#get-app">ورود</a>
-                </div>
-            </nav>
-        </header>
 
         <section class="agency_banner_area bg_color">
             <img class="banner_shap" src="img/home4/banner_bg.png" alt="">
@@ -318,7 +156,7 @@
                         <div class="col-lg-6">
                             <div class="agency_featured_content pr_70 pl_70 wow fadeInLeft" data-wow-delay="0.6s">
                                 <div class="dot"><span class="dot1"></span><span class="dot2"></span></div>
-                                <img class="number" src="img/home4/1.png" alt="">
+                                <img class="number" src="img/home4/one.png" alt="" style="width: 100px;">
                                 <h3>عضویت در سامانه</h3>
                                 <p>با ورود به قسمت عضویت در سامانه و تکمیل فرم ثبت نام فرآیند عضویت شما در سیستم تکمیل شده و میبایست پس از ورود به سیستم اطلاعات هویتی خودرا تکمیل نمایید.</p>
                                 <a href="#" class="icon mt_30"><i class="ti-arrow-left"></i></a>
@@ -334,7 +172,7 @@
                         <div class="col-lg-6">
                             <div class="agency_featured_content pl_100 wow fadeInRight" data-wow-delay="0.5s">
                                 <div class="dot"><span class="dot1"></span><span class="dot2"></span></div>
-                                <img class="number" src="img/home4/2.png" alt="">
+                                <img class="number" src="img/home4/two.png" alt="" style="width: 100px;">
                                 <h3>احراز هویت</h3>
                                 <p>با ورود به منو تکمیل اطلاعات و احراز هویت و وارد نمودن اطلاعات در سامانه فرادیس البرز، فرآیند احراز هویت شما آغاز شده و تیم مدیریت فرادیس البرز به سرعت اطلاعات هویتی شمارا بررسی خواهند کرد.</p>
                                 <a href="#" class="icon mt_30"><i class="ti-arrow-right"></i></a>
@@ -350,7 +188,7 @@
                         <div class="col-lg-6">
                             <div class="agency_featured_content pr_70 pl_70 wow fadeInLeft" data-wow-delay="0.5s">
                                 <div class="dot"><span class="dot1"></span><span class="dot2"></span></div>
-                                <img class="number" src="img/home4/3.png" alt="">
+                                <img class="number" src="img/home4/three.png" alt="" style="width: 100px;">
                                 <h3>فعالسازی خدمات</h3>
                                 <p>پس از احراز هویت شما میتوانید بدون محدودیت از تمامی ماژول ها و خدمات سامانه فرادیس البرز استفاده نمایید.</p>
                                 <a href="#" class="btn_hover agency_banner_btn mt_30">عضویت</a>
@@ -509,87 +347,6 @@
             </div>
         </section>
 
-        <footer class="footer_area footer_area_four f_bg">
-            <div class="footer_top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6">
-                            <div class="f_widget company_widget">
-                                <a href="index.html" class="f-logo"><img src="img/name-faradis.png" srcset="img/logo2x.png 2x" alt=""></a>
-                                <div class="widget-wrap">
-                                    <p class="f_400 f_p f_size_15 mb-0 l_height34"><span>ایمیل:</span> <a href="mailto:Faradis@gmail.com" class="f_400">Faradis@gmail.com</a></p>
-                                    <p class="f_400 f_p f_size_15 mb-0 l_height34"><span>شماره تماس:</span> <a href="tel:+98 45484741" class="f_400">45484741 98+</a></p>
-                                </div>
-                                <form action="#" class="f_subscribe mailchimp" method="post">
-                                    <input type="text" name="EMAIL" class="form-control memail" placeholder="ایمیل">
-                                    <button class="btn btn-submit" type="submit"><i class="ti-arrow-right"></i></button>
-                                    <p class="mchimp-errmessage" style="display: none;"></p>
-                                    <p class="mchimp-sucmessage" style="display: none;"></p>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="f_widget about-widget pl_40">
-                                <h3 class="f-title f_600 t_color f_size_18 mb_40">دسترسی سریع</h3>
-                                <ul class="list-unstyled f_list">
-                                    <li><a href="#">درباره محصول</a></li>
-                                    <li><a href="#">محصولات</a></li>
-                                    <li><a href="#">آموزش</a></li>
-                                    <li><a href="#">تماس باما</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="f_widget about-widget">
-                                <h3 class="f-title f_600 t_color f_size_18 mb_40">لینک های کاربردی</h3>
-                                <ul class="list-unstyled f_list">
-                                    <li><a href="#">مستندات فنی</a></li>
-                                    <li><a href="#">سوالات متداول</a></li>
-                                    <li><a href="#">سورس کدها</a></li>
-                                    <li><a href="#">راهنما</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 pl-20">
-                            <div class="f_widget about-widget">
-                                <h3 class="f-title f_600 t_color f_size_18 mb_40">حقوقی</h3>
-                                <ul class="list-unstyled f_list">
-                                    <li><a href="#">قوانین</a></li>
-                                    <li><a href="#">حریم خصوصی</a></li>
-                                    <li><a href="#">شرایط استفاده</a></li>
-                                    <li><a href="#">مراحل احراز هویت</a></li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer_bottom">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4 col-md-5 col-sm-6">
-                            <p class="mb-0 f_400">تمامی حقوق مربوط به سامانه <a href="#">فرادیس البرز</a> می باشد.</p>
-                        </div>
-                        <div class="col-lg-4 col-md-3 col-sm-6">
-                            <div class="f_social_icon_two text-center">
-                                <a href="#"><i class="ti-facebook"></i></a>
-                                <a href="#"><i class="ti-twitter-alt"></i></a>
-                                <a href="#"><i class="ti-vimeo-alt"></i></a>
-                                <a href="#"><i class="ti-pinterest"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <ul class="list-unstyled f_menu text-right">
-                                <li><a href="#">Terms of Use</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/propper.js"></script>
@@ -609,3 +366,4 @@
 
 
 </html>
+@endsection()
