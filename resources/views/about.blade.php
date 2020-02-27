@@ -52,7 +52,7 @@
                                         <div class="blog_img">
                                             <img src="img/blog-grid/bankk.jpg" alt="">
                                         </div>
-                                        <div class="blog_content">
+                                        <div class="blog_content" style="background-color:rgb(238, 236, 244)!important;">
                                             <div class="entry_post_info">
                                                 <a href="#" class="f-byekan">1 تیرماه 1398</a>
                                             </div>
@@ -70,7 +70,7 @@
                                         <div class="blog_img">
                                             <img src="img/blog-grid/bankk.jpg" alt="">
                                         </div>
-                                        <div class="blog_content">
+                                        <div class="blog_content" style="background-color:rgb(238, 236, 244)!important;">
                                             <div class="entry_post_info">
                                                 <a href="#" class="f-byekan">1 تیرماه 1398</a>
                                             </div>
@@ -88,7 +88,7 @@
                                         <div class="blog_img">
                                             <img src="img/blog-grid/bankk.jpg" alt="">
                                         </div>
-                                        <div class="blog_content">
+                                        <div class="blog_content" style="background-color:rgb(238, 236, 244)!important;">
                                             <div class="entry_post_info">
                                                 <a href="#" class="f-byekan">1 تیرماه 1398</a>
                                             </div>

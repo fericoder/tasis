@@ -105,7 +105,7 @@
                                 </a>
 
                             </li>
-                            <li class="dropdown submenu nav-item"><a title="Pages" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">درباره محصول</a>
+                            <li class="dropdown submenu nav-item"><a title="Pages" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="/about">درباره محصول</a>
 
 
                             </li>
@@ -114,8 +114,8 @@
                                 <li class="dropdown submenu nav-item"><a title="Pages" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="/services">خدمات</a>
                                     <ul role="menu" class=" dropdown-menu">
 
-                                        <li class="nav-item"><a title="پرداخت یاری" class="nav-link" href="">پرداخت یاری</a></li>
-                                        <li class="nav-item"><a title="پرداخت یاری" class="nav-link" href="">پرداخت یاری</a></li>
+                                        <li class="nav-item"><a title="پرداخت یاری" class="nav-link" href="/payment">پرداخت یاری</a></li>
+                                        <li class="nav-item"><a title="فروشگاه ساز" class="nav-link" href="">فروشگاه ساز</a></li>
                                         <li class="nav-item"><a title="پرداخت یاری" class="nav-link" href="">پرداخت یاری</a></li>
                                         <li class="nav-item"><a title="پرداخت یاری" class="nav-link" href="">پرداخت یاری</a></li>
                                         <li class="nav-item"><a title="پرداخت یاری" class="nav-link" href="">پرداخت یاری</a></li>
@@ -163,7 +163,7 @@
                                 <a href="index.html" class="f-logo"><img src="img/name-faradis.png" srcset="img/logo2x.png 2x" alt=""></a>
                                 <div class="widget-wrap">
                                     <p class="f_400 f_p f_size_15 mb-0 l_height34"><span>ایمیل:</span> <a href="mailto:Faradis@gmail.com" class="f_400">Faradis@gmail.com</a></p>
-                                    <p class="f_400 f_p f_size_15 mb-0 l_height34"><span>شماره تماس:</span> <a href="tel:+98 45484741" class="f_400">45484741 98+</a></p>
+                                    <p class="f_400 f_p f_size_15 mb-0 l_height34"><span>شماره تماس:</span> <a href="tel:+98 45484741" class="f_400 f-byekan">45484741 98+</a></p>
                                 </div>
                                 <form action="#" class="f_subscribe mailchimp" method="post">
                                     <input type="text" name="EMAIL" class="form-control memail" placeholder="ایمیل">
