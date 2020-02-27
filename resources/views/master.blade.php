@@ -226,8 +226,8 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12">
                             <ul class="list-unstyled f_menu text-right">
-                                <li><a href="#">Terms of Use</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">شرایط استفاده</a></li>
+                                <li><a href="#">حفظ حریم خصوصی</a></li>
                             </ul>
                         </div>
                     </div>
