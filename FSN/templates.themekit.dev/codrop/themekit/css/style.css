@@ -418,7 +418,7 @@ main > section.section-base {
 
 main > section > .container {
     padding-top: 100px;
-  
+
 }
 
 .section-video > video, .section-map > .google-map, .section-slider > .background-slider, .section-slider > .background-slider > div {
@@ -2802,15 +2802,15 @@ ICON LINK - COMPONENT
 }
 
 .icon-links-grid a:first-child {
-    border-bottom-left-radius: 3px;
-    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
 }
 
 .icon-links-grid a:last-of-type {
     border-right-style: solid;
     border-right-width: 1px;
-    border-bottom-right-radius: 3px;
-    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
 }
 
 .icon-links-button a {
@@ -5753,6 +5753,9 @@ Inverted responsive classes
 .f-rtl{
   direction: rtl;
   text-align: right;
+}
+.f-r{
+  text-align: right!important;
 }
 .f-ltr{
   direction: ltr;
